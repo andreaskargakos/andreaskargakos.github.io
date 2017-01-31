@@ -1,0 +1,7 @@
+Origin: ramcip-certh-deb
+Label: ramcip-certh-deb
+Codename: trusty
+Architectures: i386 amd64
+Components: main
+Description: Apt repository for project ramcip-certh
+SignWith: 7F70F89F>

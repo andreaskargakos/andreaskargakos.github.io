@@ -1,0 +1,120 @@
+Package: ros-indigo-certh-action-recognition
+Version: 0.0.0-0trusty
+Architecture: amd64
+Maintainer: ramcip <ramcip@todo.todo>
+Installed-Size: 299
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libopencv-core2.4, libopencv-flann2.4, libqtcore4 (>= 4:4.7.0~beta1), libstdc++6 (>= 4.4.0), ros-indigo-roscpp
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-indigo-certh-action-recognition/ros-indigo-certh-action-recognition_0.0.0-0trusty_amd64.deb
+Size: 76966
+SHA256: 32dd780cc32efad56e52d8a2c4fe284621255f2e81259b08a3ee2f56ec615017
+SHA1: ddf4bd72bc7d260a1f5c40af3917cf5d86deaabb
+MD5sum: a73c40d04f8bdbd821e440c9c574c97a
+Description: The certh_action_recognition package
+
+Package: ros-indigo-certh-aux
+Version: 0.0.0-0trusty
+Architecture: amd64
+Maintainer: S. Malasiotis <malasiot@iti.gr>
+Installed-Size: 1127
+Depends: libboost-filesystem1.54.0, libboost-regex1.54.0, libboost-system1.54.0, libc6 (>= 2.14), libcurl3 (>= 7.16.2), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.4.0), curl, libcurl4-openssl-dev, ros-indigo-certh-core
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-indigo-certh-aux/ros-indigo-certh-aux_0.0.0-0trusty_amd64.deb
+Size: 414762
+SHA256: 53752aab528fa525c38f4bfd3509ea1b77794545ca335077e9abbe47a43cd21b
+SHA1: 34bf600e314b1dc9e146fe50d26492996beda939
+MD5sum: 203c0afcb45a61146964c79ce1119e69
+Description: Auxiliary libraries (database, networking)
+
+Package: ros-indigo-certh-core
+Version: 0.0.1-0trusty
+Architecture: amd64
+Maintainer: Sotiris Malassiotis <malasiot@iti.gr>
+Installed-Size: 2298
+Depends: libboost-filesystem1.54.0, libboost-iostreams1.54.0, libboost-regex1.54.0, libboost-system1.54.0, libboost-thread1.54.0, libc6 (>= 2.14), libcairo2 (>= 1.10.0), libfontconfig1 (>= 2.9.0), libgcc1 (>= 1:4.1.1), libgomp1 (>= 4.2.1), libopencv-calib3d2.4, libopencv-core2.4, libopencv-features2d2.4, libopencv-highgui2.4, libopencv-imgproc2.4, libpcl-common-1.7, libpcl-recognition-1.7, libpcl-search-1.7, libpcl-segmentation-1.7, libpcl-surface-1.7, libstdc++6 (>= 4.6), libopencv-dev, libpcl-1.7-all
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-indigo-certh-core/ros-indigo-certh-core_0.0.1-0trusty_amd64.deb
+Size: 668718
+SHA256: 3e3818cc2ca5964fe2cfd08fb3a1e137db8d94c3e3bcfc62fd700eb54d9370da
+SHA1: 92acf1a2711dfd5703ec2aa6438c67f0a4b782db
+MD5sum: df67569ff91fcd8db44139c008dede79
+Description: Various libraries for vision and geometry
+
+Package: ros-indigo-certh-face
+Version: 0.0.0-0trusty
+Architecture: amd64
+Maintainer: S. Malasiotis <malasiot@iti.gr>
+Installed-Size: 1331
+Depends: libopencv-dev, ros-indigo-certh-core, ros-indigo-cmake-modules, ros-indigo-cv-bridge, ros-indigo-image-transport, ros-indigo-roscpp, ros-indigo-roslib, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-indigo-certh-face/ros-indigo-certh-face_0.0.0-0trusty_amd64.deb
+Size: 460344
+SHA256: f94562dfccae218e4498fcb631f7ff8168e8aa50ab21ea50dc405ea72b379856
+SHA1: b16349bbe7d1aae8da69fbf1b62999bf9e96b21f
+MD5sum: 920aaf8b6b4a7fe32c1f896c4da9ce99
+Description: Face detection, recognition, landmarks
+
+Package: ros-indigo-certh-large-object-tracking
+Version: 0.0.1-0trusty
+Architecture: amd64
+Maintainer: G. Peleka <gepe@iti.gr>
+Installed-Size: 786
+Depends: ros-indigo-certh-core, ros-indigo-certh-renderer, ros-indigo-roscpp
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-indigo-certh-large-object-tracking/ros-indigo-certh-large-object-tracking_0.0.1-0trusty_amd64.deb
+Size: 205234
+SHA256: 42a13fb081d7f091dfc73a31541b2623246cf1747c7491a0c7ce963ae1604cca
+SHA1: 80263095b3cda359801c2bf43d43be437efaaba4
+MD5sum: 50faab6ad4c612aba7afdb5d0c36ff51
+Description: The certh_large_object_tracking package
+
+Package: ros-indigo-certh-object-recognition
+Version: 0.0.4-0trusty
+Architecture: amd64
+Maintainer: Evangelos Skartados <eskartad@iti.gr>
+Installed-Size: 1487
+Depends: libopencv-dev, libpcl-1.7-all, ros-indigo-certh-core, ros-indigo-cmake-modules, ros-indigo-cv-bridge, ros-indigo-geometry-msgs, ros-indigo-message-filters, ros-indigo-message-runtime, ros-indigo-pcl-conversions, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-indigo-certh-object-recognition/ros-indigo-certh-object-recognition_0.0.4-0trusty_amd64.deb
+Size: 349992
+SHA256: b0c2b75dd6df4d164a25617d8e0c7d4168a7b835b86daf80481ed83f4796249d
+SHA1: f816123fb70405f5ee5fc480c6bbb2b93a3f1254
+MD5sum: a4d9b9127a45f22edd4b6bfe27123530
+Description: Object recognition algorithms
+
+Package: ros-indigo-certh-obstacle-tracking
+Version: 0.0.1-0trusty
+Architecture: amd64
+Maintainer: ramcip <ramcip@todo.todo>
+Installed-Size: 371
+Depends: libboost-system1.54.0, libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libopencv-core2.4, libopencv-highgui2.4, libopencv-imgproc2.4, libpcl-common-1.7, libpcl-filters-1.7, libpcl-search-1.7, libpcl-segmentation-1.7, libpcl-surface-1.7, libpcl-visualization-1.7, libstdc++6 (>= 4.4.0), libvtk5.8, ros-indigo-certh-core, ros-indigo-roscpp
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-indigo-certh-obstacle-tracking/ros-indigo-certh-obstacle-tracking_0.0.1-0trusty_amd64.deb
+Size: 88798
+SHA256: 3d02625deb01e92b43f22c81bcaf0a02cf0abd582a17e1fae2530e7301097f67
+SHA1: c89d9744b68748f238e254aa3a2093e5166f7730
+MD5sum: 4d58547ea8da92c34af83693a77c5542
+Description: The certh_obstacle_tracking package
+
+Package: ros-indigo-certh-renderer
+Version: 0.0.1-0trusty
+Architecture: amd64
+Maintainer: Sotiris Malassiotis <malasiot@iti.gr>
+Installed-Size: 1812
+Depends: libassimp3 (>= 2.0.863), libboost-filesystem1.54.0, libboost-system1.54.0, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libgl1, libglew1.10 (>= 1.10.0), libglu1-mesa | libglu1, libopencv-core2.4, libopencv-highgui2.4, libopencv-imgproc2.4, libstdc++6 (>= 4.4.0), libx11-6, libassimp-dev, libgl1-mesa-dev, libglu1-mesa-dev
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-indigo-certh-renderer/ros-indigo-certh-renderer_0.0.1-0trusty_amd64.deb
+Size: 623798
+SHA256: edef5cf3bdb29be15e0d529bd8c146d79ee027bde4d16ae0bf985deaf5079d5e
+SHA1: 94b7954fbf9669d9fbda5910596bc0332afbacc3
+MD5sum: a526608530f1634ffd8958a0ff46e7eb
+Description: Offscreen rendering
+

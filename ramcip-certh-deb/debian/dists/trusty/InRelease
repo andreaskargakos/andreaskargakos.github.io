@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: ramcip-certh-deb
+Label: ramcip-certh-deb
+Codename: trusty
+Date: Tue, 31 Jan 2017 11:50:57 UTC
+Architectures: i386 amd64
+Components: main
+Description: Apt repository for project ramcip-certh
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
+ 00c89ee5b92e376189f10050219779e3 137 main/binary-i386/Release
+ 659c69e50ee512f51e768f3e3c39ffcb 6201 main/binary-amd64/Packages
+ c1b709f9cb37ded064d66c1e314cd46e 1927 main/binary-amd64/Packages.gz
+ 84fa18c045d4ff3ca99fc076b30d3b82 138 main/binary-amd64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
+ 50616d790be1ddbbf8ac94974358e38f6ed71a7f 137 main/binary-i386/Release
+ 1457eeb2b2f300661b9a54e82100546cc9338246 6201 main/binary-amd64/Packages
+ 2b68817e05775ad487a1e69db5b476e2d58428e0 1927 main/binary-amd64/Packages.gz
+ 5a5277a3b896cef78c057d18acdf8450c5921403 138 main/binary-amd64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
+ 333175cc5d8bd89158d62faa42fe25c045b7aa0ceb422d0a52ef574b5b0705c2 137 main/binary-i386/Release
+ 5048ed7432ef03e6b7a588752fbf1c7e60bcfc9f4a613e93bbe2ca334dc7d9db 6201 main/binary-amd64/Packages
+ 4780f584bf55e474c98f46715e51e67a7b8fdd487ab0be9adcb09093d0821561 1927 main/binary-amd64/Packages.gz
+ 225e7f09348469807a31f22dc8e6d9f33bd3fa351f562a1a91e00489285e5de0 138 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJYkHohAAoJELIF+H0vRTg5V3IIAJe2lIIc0n3ZcN34WulUQQTR
+zPN74Hef2LinRcYNw2gHisvSrRrpc7qlnCxbZIp93VfuSSKhObNsYSMHzMs4oepM
+BSvTrQN2XB0S+CZ2KIEySu8bKTTqmmVwiaOwKi0GB1UUURNEosQngJtlBvPEZXQ+
+IZOYw09KgiiP08YWq3uLOepyFwqmBhG9Bv+ND7nsP9r8XupQXKI9bwphsMn/Wghw
+JZ6P5Ifbds3KlYIqfSLGTeeyZ7EmdWdobYwDYthAvCxmmur/UQP5Ji8RpcDA4R7v
+himU+tY3fkHh1eaNw8YIL4LpDwZXaPVSE6GF2/UZBR0x4W4rQfiub1L4qDdVxOk=
+=Dv/Y
+-----END PGP SIGNATURE-----

@@ -1,0 +1,5 @@
+Component: main
+Origin: ramcip-certh-deb
+Label: ramcip-certh-deb
+Architecture: i386
+Description: Apt repository for project ramcip-certh
